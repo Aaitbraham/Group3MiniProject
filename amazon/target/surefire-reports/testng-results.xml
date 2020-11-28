@@ -5,16 +5,16 @@
       <![CDATA[Extent Report DirectoryC:\Users\temp\IdeaProjects\Group3Project\amazon\target\surefire-reports\html]]>
     </line>
   </reporter-output>
-  <suite started-at="2020-11-24T16:06:47 EST" name="Selenium Test Suite" finished-at="2020-11-24T16:06:59 EST" duration-ms="11530">
+  <suite started-at="2020-11-25T11:11:30 EST" name="Selenium Test Suite" finished-at="2020-11-25T11:11:46 EST" duration-ms="15724">
     <groups>
     </groups>
-    <test started-at="2020-11-24T16:06:47 EST" name="Automation tests" finished-at="2020-11-24T16:06:59 EST" duration-ms="11530">
+    <test started-at="2020-11-25T11:11:30 EST" name="Automation tests" finished-at="2020-11-25T11:11:46 EST" duration-ms="15724">
       <class name="com.amazontest.HomePageValidations">
-        <test-method is-config="true" signature="extentSetup(org.testng.ITestContext)[pri:0, instance:com.amazontest.HomePageValidations@e383572]" started-at="2020-11-24T16:06:47 EST" name="extentSetup" finished-at="2020-11-24T16:06:47 EST" duration-ms="145" status="PASS">
+        <test-method is-config="true" signature="extentSetup(org.testng.ITestContext)[pri:0, instance:com.amazontest.HomePageValidations@60df60da]" started-at="2020-11-25T11:11:30 EST" name="extentSetup" finished-at="2020-11-25T11:11:30 EST" duration-ms="310" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[org.testng.TestRunner@2f2d52ef]]>
+                <![CDATA[org.testng.TestRunner@c6634d]]>
               </value>
             </param>
           </params>
@@ -24,7 +24,7 @@
             </line>
           </reporter-output>
         </test-method> <!-- extentSetup -->
-        <test-method is-config="true" signature="setupDriver(java.lang.String, java.lang.String, java.lang.String, boolean, java.lang.String, java.lang.String)[pri:0, instance:com.amazontest.HomePageValidations@e383572]" started-at="2020-11-24T16:06:47 EST" name="setupDriver" finished-at="2020-11-24T16:06:57 EST" duration-ms="9146" status="PASS">
+        <test-method is-config="true" signature="setupDriver(java.lang.String, java.lang.String, java.lang.String, boolean, java.lang.String, java.lang.String)[pri:0, instance:com.amazontest.HomePageValidations@60df60da]" started-at="2020-11-25T11:11:30 EST" name="setupDriver" finished-at="2020-11-25T11:11:43 EST" duration-ms="12370" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -60,7 +60,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setupDriver -->
-        <test-method is-config="true" signature="startExtent(java.lang.reflect.Method)[pri:0, instance:com.amazontest.HomePageValidations@e383572]" started-at="2020-11-24T16:06:57 EST" name="startExtent" finished-at="2020-11-24T16:06:57 EST" duration-ms="6" status="PASS">
+        <test-method is-config="true" signature="startExtent(java.lang.reflect.Method)[pri:0, instance:com.amazontest.HomePageValidations@60df60da]" started-at="2020-11-25T11:11:43 EST" name="startExtent" finished-at="2020-11-25T11:11:43 EST" duration-ms="6" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -71,26 +71,26 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- startExtent -->
-        <test-method signature="validateUserBeingAbleToTypeOnSearchBar()[pri:0, instance:com.amazontest.HomePageValidations@e383572]" started-at="2020-11-24T16:06:57 EST" name="validateUserBeingAbleToTypeOnSearchBar" finished-at="2020-11-24T16:06:57 EST" duration-ms="428" status="PASS">
+        <test-method signature="validateUserBeingAbleToTypeOnSearchBar()[pri:0, instance:com.amazontest.HomePageValidations@60df60da]" started-at="2020-11-25T11:11:43 EST" name="validateUserBeingAbleToTypeOnSearchBar" finished-at="2020-11-25T11:11:44 EST" duration-ms="1115" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- validateUserBeingAbleToTypeOnSearchBar -->
-        <test-method is-config="true" signature="afterEachTestMethod(org.testng.ITestResult)[pri:0, instance:com.amazontest.HomePageValidations@e383572]" started-at="2020-11-24T16:06:57 EST" name="afterEachTestMethod" finished-at="2020-11-24T16:06:58 EST" duration-ms="849" status="PASS">
+        <test-method is-config="true" signature="afterEachTestMethod(org.testng.ITestResult)[pri:0, instance:com.amazontest.HomePageValidations@60df60da]" started-at="2020-11-25T11:11:44 EST" name="afterEachTestMethod" finished-at="2020-11-25T11:11:45 EST" duration-ms="1145" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=validateUserBeingAbleToTypeOnSearchBar status=SUCCESS method=HomePageValidations.validateUserBeingAbleToTypeOnSearchBar()[pri:0, instance:com.amazontest.HomePageValidations@e383572] output={null}]]]>
+                <![CDATA[[TestResult name=validateUserBeingAbleToTypeOnSearchBar status=SUCCESS method=HomePageValidations.validateUserBeingAbleToTypeOnSearchBar()[pri:0, instance:com.amazontest.HomePageValidations@60df60da] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterEachTestMethod -->
-        <test-method is-config="true" signature="cleanUp()[pri:0, instance:com.amazontest.HomePageValidations@e383572]" started-at="2020-11-24T16:06:58 EST" name="cleanUp" finished-at="2020-11-24T16:06:59 EST" duration-ms="1066" status="PASS">
+        <test-method is-config="true" signature="cleanUp()[pri:0, instance:com.amazontest.HomePageValidations@60df60da]" started-at="2020-11-25T11:11:45 EST" name="cleanUp" finished-at="2020-11-25T11:11:46 EST" duration-ms="1054" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- cleanUp -->
-        <test-method is-config="true" signature="generateReport()[pri:0, instance:com.amazontest.HomePageValidations@e383572]" started-at="2020-11-24T16:06:59 EST" name="generateReport" finished-at="2020-11-24T16:06:59 EST" duration-ms="87" status="PASS">
+        <test-method is-config="true" signature="generateReport()[pri:0, instance:com.amazontest.HomePageValidations@60df60da]" started-at="2020-11-25T11:11:46 EST" name="generateReport" finished-at="2020-11-25T11:11:46 EST" duration-ms="88" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- generateReport -->
