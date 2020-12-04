@@ -26,7 +26,7 @@
       <span class="top-banner-title-font">Test results</span>
       <button id="button" class="button">Switch Retro Theme</button> <!-- button -->
       <br/>
-      <span class="top-banner-font-1">1 suite</span>
+      <span class="top-banner-font-1">1 suite, 5 failed tests</span>
     </div> <!-- top-banner-root -->
     <div class="navigator-root">
       <div class="navigator-suite-header">
@@ -40,7 +40,7 @@
         <div class="rounded-window">
           <div class="suite-header light-rounded-window-top">
             <a href="#" panel-name="suite-Selenium_Test_Suite" class="navigator-link">
-              <span class="suite-name border-passed">Selenium Test Suite</span>
+              <span class="suite-name border-failed">Selenium Test Suite</span>
             </a> <!-- navigator-link -->
           </div> <!-- suite-header light-rounded-window-top -->
           <div class="navigator-suite-content">
@@ -93,7 +93,65 @@
               <div class="suite-section-content">
                 <ul>
                   <li>
-                    <span class="method-stats">1 method,   1 passed</span>
+                    <span class="method-stats">27 methods, 5 failed,  3 skipped,  19 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title failed">Failed methods</span>
+                    <span class="show-or-hide-methods failed">
+                      <a href="#" panel-name="suite-Selenium_Test_Suite" class="hide-methods failed suite-Selenium_Test_Suite"> (hide)</a> <!-- hide-methods failed suite-Selenium_Test_Suite -->
+                      <a href="#" panel-name="suite-Selenium_Test_Suite" class="show-methods failed suite-Selenium_Test_Suite"> (show)</a> <!-- show-methods failed suite-Selenium_Test_Suite -->
+                    </span>
+                    <div class="method-list-content failed suite-Selenium_Test_Suite">
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Selenium_Test_Suite" title="com.amazontest.LoginPageValidations" class="method navigator-link" hash-for-method="validateUserBeingAbleToClickContinueButton">validateUserBeingAbleToClickContinueButton</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Selenium_Test_Suite" title="com.amazontest.LoginPageValidations" class="method navigator-link" hash-for-method="validateUserBeingAbleToClickOnCreateAnAccountButton">validateUserBeingAbleToClickOnCreateAnAccountButton</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Selenium_Test_Suite" title="com.amazontest.HomePageValidations" class="method navigator-link" hash-for-method="validateUserBeingAbleToClickOnSearchButton">validateUserBeingAbleToClickOnSearchButton</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Selenium_Test_Suite" title="com.amazontest.LoginPageValidations" class="method navigator-link" hash-for-method="validateUserBeingAbleToTypePassword">validateUserBeingAbleToTypePassword</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Selenium_Test_Suite" title="com.amazontest.LoginPageValidations" class="method navigator-link" hash-for-method="validateUserNotBeingAbleToLoginWithInvalidPassword">validateUserNotBeingAbleToLoginWithInvalidPassword</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content failed suite-Selenium_Test_Suite -->
+                  </li>
+                  <li>
+                    <span class="method-list-title skipped">Skipped methods</span>
+                    <span class="show-or-hide-methods skipped">
+                      <a href="#" panel-name="suite-Selenium_Test_Suite" class="hide-methods skipped suite-Selenium_Test_Suite"> (hide)</a> <!-- hide-methods skipped suite-Selenium_Test_Suite -->
+                      <a href="#" panel-name="suite-Selenium_Test_Suite" class="show-methods skipped suite-Selenium_Test_Suite"> (show)</a> <!-- show-methods skipped suite-Selenium_Test_Suite -->
+                    </span>
+                    <div class="method-list-content skipped suite-Selenium_Test_Suite">
+                      <span>
+                        <img src="skipped.png" width="3%"/>
+                        <a href="#" panel-name="suite-Selenium_Test_Suite" title="com.amazontest.FindAGiftValidations" class="method navigator-link" hash-for-method="validateUserBeingAbleToClickOnElectronicGifts">validateUserBeingAbleToClickOnElectronicGifts</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="skipped.png" width="3%"/>
+                        <a href="#" panel-name="suite-Selenium_Test_Suite" title="com.amazontest.WholeFoodsValidations" class="method navigator-link" hash-for-method="validateUserBeingAbleToClickOnPastPurchacesTAb">validateUserBeingAbleToClickOnPastPurchacesTAb</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="skipped.png" width="3%"/>
+                        <a href="#" panel-name="suite-Selenium_Test_Suite" title="com.amazontest.FindAGiftValidations" class="method navigator-link" hash-for-method="validateUserBeingAbleToClickOnShopAllHolidaysGifts">validateUserBeingAbleToClickOnShopAllHolidaysGifts</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content skipped suite-Selenium_Test_Suite -->
                   </li>
                   <li>
                     <span class="method-list-title passed">Passed methods</span>
@@ -102,6 +160,96 @@
                       <a href="#" panel-name="suite-Selenium_Test_Suite" class="show-methods passed suite-Selenium_Test_Suite"> (show)</a> <!-- show-methods passed suite-Selenium_Test_Suite -->
                     </span>
                     <div class="method-list-content passed suite-Selenium_Test_Suite">
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Selenium_Test_Suite" title="com.amazontest.HomePageValidations" class="method navigator-link" hash-for-method="ValidateUserBeingAbleToClickOnTodaysAmazonBasics">ValidateUserBeingAbleToClickOnTodaysAmazonBasics</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Selenium_Test_Suite" title="com.amazontest.HomePageValidations" class="method navigator-link" hash-for-method="validateUSerBeenAbleToClickOnCustomerServiceButton">validateUSerBeenAbleToClickOnCustomerServiceButton</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Selenium_Test_Suite" title="com.amazontest.HomePageValidations" class="method navigator-link" hash-for-method="validateUSerBeenAbleToClickOnFindAGiftTAb">validateUSerBeenAbleToClickOnFindAGiftTAb</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Selenium_Test_Suite" title="com.amazontest.HomePageValidations" class="method navigator-link" hash-for-method="validateUSerBeenAbleToClickOnWholeFoodTab">validateUSerBeenAbleToClickOnWholeFoodTab</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Selenium_Test_Suite" title="com.amazontest.HomePageValidations" class="method navigator-link" hash-for-method="validateUSerBeenAbleToMouseHoverHelloSignInButtonAndClickOnSignInButton">validateUSerBeenAbleToMouseHoverHelloSignInButtonAndClickOnSignInButton</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Selenium_Test_Suite" title="com.amazontest.HomePageValidations" class="method navigator-link" hash-for-method="validateUSerBeenAbleToRefreshHomePage">validateUSerBeenAbleToRefreshHomePage</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Selenium_Test_Suite" title="com.amazontest.WholeFoodsValidations" class="method navigator-link" hash-for-method="validateUserBeingAbleToClickAlexaListTab">validateUserBeingAbleToClickAlexaListTab</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Selenium_Test_Suite" title="com.amazontest.WholeFoodsValidations" class="method navigator-link" hash-for-method="validateUserBeingAbleToClickOnDealsTab">validateUserBeingAbleToClickOnDealsTab</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Selenium_Test_Suite" title="com.amazontest.CustomerServiceValidations" class="method navigator-link" hash-for-method="validateUserBeingAbleToClickOnDigitalServicesAndDeviceSupportTab">validateUserBeingAbleToClickOnDigitalServicesAndDeviceSupportTab</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Selenium_Test_Suite" title="com.amazontest.HomePageValidations" class="method navigator-link" hash-for-method="validateUserBeingAbleToClickOnDropDownAndSelectAmazonPharmacy">validateUserBeingAbleToClickOnDropDownAndSelectAmazonPharmacy</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Selenium_Test_Suite" title="com.amazontest.CustomerServiceValidations" class="method navigator-link" hash-for-method="validateUserBeingAbleToClickOnGetProductHelp">validateUserBeingAbleToClickOnGetProductHelp</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Selenium_Test_Suite" title="com.amazontest.CustomerServiceValidations" class="method navigator-link" hash-for-method="validateUserBeingAbleToClickOnManagePrimeTab">validateUserBeingAbleToClickOnManagePrimeTab</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Selenium_Test_Suite" title="com.amazontest.CustomerServiceValidations" class="method navigator-link" hash-for-method="validateUserBeingAbleToClickOnPaymentsAndGifCardTab">validateUserBeingAbleToClickOnPaymentsAndGifCardTab</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Selenium_Test_Suite" title="com.amazontest.CustomerServiceValidations" class="method navigator-link" hash-for-method="validateUserBeingAbleToClickOnReturnsandRefunds">validateUserBeingAbleToClickOnReturnsandRefunds</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Selenium_Test_Suite" title="com.amazontest.CustomerServiceValidations" class="method navigator-link" hash-for-method="validateUserBeingAbleToClickOnYourOrdersTab">validateUserBeingAbleToClickOnYourOrdersTab</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Selenium_Test_Suite" title="com.amazontest.CustomerServiceValidations" class="method navigator-link" hash-for-method="validateUserBeingAbleToClickYourAccountTab">validateUserBeingAbleToClickYourAccountTab</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Selenium_Test_Suite" title="com.amazontest.LoginPageValidations" class="method navigator-link" hash-for-method="validateUserBeingAbleToCreateAnAccountAndRegister">validateUserBeingAbleToCreateAnAccountAndRegister</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Selenium_Test_Suite" title="com.amazontest.LoginPageValidations" class="method navigator-link" hash-for-method="validateUserBeingAbleToTypeInEmailAddress">validateUserBeingAbleToTypeInEmailAddress</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
                       <span>
                         <img src="passed.png" width="3%"/>
                         <a href="#" panel-name="suite-Selenium_Test_Suite" title="com.amazontest.HomePageValidations" class="method navigator-link" hash-for-method="validateUserBeingAbleToTypeOnSearchBar">validateUserBeingAbleToTypeOnSearchBar</a> <!-- method navigator-link -->
@@ -119,6 +267,429 @@
     <div class="wrapper">
       <div class="main-panel-root">
         <div panel-name="suite-Selenium_Test_Suite" class="panel Selenium_Test_Suite">
+          <div class="suite-Selenium_Test_Suite-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">com.amazontest.HomePageValidations</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="validateUserBeingAbleToClickOnSearchButton">
+                  </a> <!-- validateUserBeingAbleToClickOnSearchButton -->
+                  <span class="method-name">validateUserBeingAbleToClickOnSearchButton</span>
+                  <div class="stack-trace">org.junit.ComparisonFailure: expected:&lt;...ps://www.amazon.com/[]&gt; but was:&lt;...ps://www.amazon.com/[s?k=Iphones&amp;ref=nb_sb_noss_2]&gt;
+	at org.junit.Assert.assertEquals(Assert.java:115)
+	at org.junit.Assert.assertEquals(Assert.java:144)
+	at com.amazon.pages.HomePage.clickOnSearchButton(HomePage.java:83)
+	at com.amazontest.HomePageValidations.validateUserBeingAbleToClickOnSearchButton(HomePageValidations.java:24)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+... Removed 31 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Selenium_Test_Suite-class-failed -->
+          <div class="suite-Selenium_Test_Suite-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">com.amazontest.LoginPageValidations</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="validateUserBeingAbleToClickContinueButton">
+                  </a> <!-- validateUserBeingAbleToClickContinueButton -->
+                  <span class="method-name">validateUserBeingAbleToClickContinueButton</span>
+                  <div class="stack-trace">org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;css selector&quot;,&quot;selector&quot;:&quot;#continue&quot;}
+  (Session info: chrome=87.0.4280.66)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
+System info: host: &apos;DESKTOP-DVMI27D&apos;, ip: &apos;192.168.64.1&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;11.0.8&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 87.0.4280.66, chrome: {chromedriverVersion: 86.0.4240.22 (398b0743353ff..., userDataDir: C:\Users\temp\AppData\Local...}, goog:chromeOptions: {debuggerAddress: localhost:51695}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: c2e26b9dd8698c9041d113cf676000d8
+*** Element info: {Using=id, value=continue}
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementById(RemoteWebDriver.java:372)
+	at org.openqa.selenium.By$ById.findElement(By.java:188)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at com.sun.proxy.$Proxy13.click(Unknown Source)
+	at com.amazon.pages.LoginPage.ClickContinueButton(LoginPage.java:66)
+	at com.amazontest.LoginPageValidations.validateUserBeingAbleToClickContinueButton(LoginPageValidations.java:29)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+... Removed 35 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="validateUserBeingAbleToClickOnCreateAnAccountButton">
+                  </a> <!-- validateUserBeingAbleToClickOnCreateAnAccountButton -->
+                  <span class="method-name">validateUserBeingAbleToClickOnCreateAnAccountButton</span>
+                  <div class="stack-trace">org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//*[@id=&apos;nav-link-accountList&apos;]&quot;}
+  (Session info: chrome=87.0.4280.66)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
+System info: host: &apos;DESKTOP-DVMI27D&apos;, ip: &apos;192.168.64.1&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;11.0.8&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 87.0.4280.66, chrome: {chromedriverVersion: 86.0.4240.22 (398b0743353ff..., userDataDir: C:\Users\temp\AppData\Local...}, goog:chromeOptions: {debuggerAddress: localhost:51807}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: 8c74dc27f944332778d66c2baa75cd87
+*** Element info: {Using=xpath, value=//*[@id=&apos;nav-link-accountList&apos;]}
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at com.sun.proxy.$Proxy13.isDisplayed(Unknown Source)
+	at com.amazon.pages.HomePage.HelloSignInButton(HomePage.java:113)
+	at com.amazontest.LoginPageValidations.validateUserBeingAbleToClickOnCreateAnAccountButton(LoginPageValidations.java:36)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+... Removed 35 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="validateUserBeingAbleToTypePassword">
+                  </a> <!-- validateUserBeingAbleToTypePassword -->
+                  <span class="method-name">validateUserBeingAbleToTypePassword</span>
+                  <div class="stack-trace">org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;css selector&quot;,&quot;selector&quot;:&quot;#continue&quot;}
+  (Session info: chrome=87.0.4280.66)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
+System info: host: &apos;DESKTOP-DVMI27D&apos;, ip: &apos;192.168.64.1&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;11.0.8&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 87.0.4280.66, chrome: {chromedriverVersion: 86.0.4240.22 (398b0743353ff..., userDataDir: C:\Users\temp\AppData\Local...}, goog:chromeOptions: {debuggerAddress: localhost:52095}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: a3e9556b4f39dd89b9687d2f33638ba2
+*** Element info: {Using=id, value=continue}
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementById(RemoteWebDriver.java:372)
+	at org.openqa.selenium.By$ById.findElement(By.java:188)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at com.sun.proxy.$Proxy13.click(Unknown Source)
+	at com.amazon.pages.LoginPage.ClickContinueButton(LoginPage.java:66)
+	at com.amazontest.LoginPageValidations.validateUserBeingAbleToTypePassword(LoginPageValidations.java:48)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+... Removed 35 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="validateUserNotBeingAbleToLoginWithInvalidPassword">
+                  </a> <!-- validateUserNotBeingAbleToLoginWithInvalidPassword -->
+                  <span class="method-name">validateUserNotBeingAbleToLoginWithInvalidPassword</span>
+                  <div class="stack-trace">org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;css selector&quot;,&quot;selector&quot;:&quot;#continue&quot;}
+  (Session info: chrome=87.0.4280.66)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
+System info: host: &apos;DESKTOP-DVMI27D&apos;, ip: &apos;192.168.64.1&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;11.0.8&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 87.0.4280.66, chrome: {chromedriverVersion: 86.0.4240.22 (398b0743353ff..., userDataDir: C:\Users\temp\AppData\Local...}, goog:chromeOptions: {debuggerAddress: localhost:52220}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: ff6ad0cb08327ac49080b8d99b510d3b
+*** Element info: {Using=id, value=continue}
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementById(RemoteWebDriver.java:372)
+	at org.openqa.selenium.By$ById.findElement(By.java:188)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at com.sun.proxy.$Proxy13.click(Unknown Source)
+	at com.amazon.pages.LoginPage.ClickContinueButton(LoginPage.java:66)
+	at com.amazontest.LoginPageValidations.validateUserNotBeingAbleToLoginWithInvalidPassword(LoginPageValidations.java:60)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+... Removed 35 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Selenium_Test_Suite-class-failed -->
+          <div class="suite-Selenium_Test_Suite-class-skipped">
+            <div class="main-panel-header rounded-window-top">
+              <img src="skipped.png"/>
+              <span class="class-name">com.amazontest.WholeFoodsValidations</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="validateUserBeingAbleToClickOnPastPurchacesTAb">
+                  </a> <!-- validateUserBeingAbleToClickOnPastPurchacesTAb -->
+                  <span class="method-name">validateUserBeingAbleToClickOnPastPurchacesTAb</span>
+                  <div class="stack-trace">org.openqa.selenium.WebDriverException: chrome not reachable
+  (Session info: chrome=87.0.4280.66)
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
+System info: host: &apos;DESKTOP-DVMI27D&apos;, ip: &apos;192.168.64.1&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;11.0.8&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 87.0.4280.66, chrome: {chromedriverVersion: 86.0.4240.22 (398b0743353ff..., userDataDir: C:\Users\temp\AppData\Local...}, goog:chromeOptions: {debuggerAddress: localhost:53156}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: 610588ac6a67df67f6472a381aa4dd9f
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.get(RemoteWebDriver.java:277)
+	at pnt.automation.base.TestBase.setupDriver(TestBase.java:66)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+... Removed 38 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Selenium_Test_Suite-class-skipped -->
+          <div class="suite-Selenium_Test_Suite-class-skipped">
+            <div class="main-panel-header rounded-window-top">
+              <img src="skipped.png"/>
+              <span class="class-name">com.amazontest.FindAGiftValidations</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="validateUserBeingAbleToClickOnElectronicGifts">
+                  </a> <!-- validateUserBeingAbleToClickOnElectronicGifts -->
+                  <span class="method-name">validateUserBeingAbleToClickOnElectronicGifts</span>
+                  <div class="stack-trace">org.openqa.selenium.SessionNotCreatedException: session not created
+from chrome not reachable
+  (Session info: chrome=87.0.4280.66)
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
+System info: host: &apos;DESKTOP-DVMI27D&apos;, ip: &apos;192.168.64.1&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;11.0.8&apos;
+Driver info: driver.version: ChromeDriver
+remote stacktrace: Backtrace:
+	Ordinal0 [0x005AC013+3194899]
+	Ordinal0 [0x00496021+2056225]
+	Ordinal0 [0x0032F4B0+586928]
+	Ordinal0 [0x00325894+546964]
+	Ordinal0 [0x00325F2C+548652]
+	Ordinal0 [0x00327175+553333]
+	Ordinal0 [0x0032241E+533534]
+	Ordinal0 [0x00330620+591392]
+	Ordinal0 [0x002D2A0C+207372]
+	Ordinal0 [0x002D1D0D+204045]
+	Ordinal0 [0x002CFC1B+195611]
+	Ordinal0 [0x002B3B7F+80767]
+	Ordinal0 [0x002B4B4E+84814]
+	Ordinal0 [0x002B4AD9+84697]
+	Ordinal0 [0x004ACE64+2149988]
+	GetHandleVerifier [0x0071BE95+1400773]
+	GetHandleVerifier [0x0071BB61+1399953]
+	GetHandleVerifier [0x007231FA+1430314]
+	GetHandleVerifier [0x0071C69F+1402831]
+	Ordinal0 [0x004A3D61+2112865]
+	Ordinal0 [0x004AE5CB+2155979]
+	Ordinal0 [0x004AE6F5+2156277]
+	Ordinal0 [0x004BF26E+2224750]
+	BaseThreadInitThunk [0x761A6359+25]
+	RtlGetAppContainerNamedObjectPath [0x77BA8944+228]
+	RtlGetAppContainerNamedObjectPath [0x77BA8914+180]
+
+	at org.openqa.selenium.remote.W3CHandshakeResponse.lambda$errorHandler$0(W3CHandshakeResponse.java:62)
+	at org.openqa.selenium.remote.HandshakeResponse.lambda$getResponseFunction$0(HandshakeResponse.java:30)
+	at org.openqa.selenium.remote.ProtocolHandshake.lambda$createSession$0(ProtocolHandshake.java:126)
+	at java.base/java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:195)
+	at java.base/java.util.Spliterators$ArraySpliterator.tryAdvance(Spliterators.java:958)
+	at java.base/java.util.stream.ReferencePipeline.forEachWithCancel(ReferencePipeline.java:127)
+	at java.base/java.util.stream.AbstractPipeline.copyIntoWithCancel(AbstractPipeline.java:502)
+	at java.base/java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:488)
+	at java.base/java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:474)
+	at java.base/java.util.stream.FindOps$FindOp.evaluateSequential(FindOps.java:150)
+	at java.base/java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)
+	at java.base/java.util.stream.ReferencePipeline.findFirst(ReferencePipeline.java:543)
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:128)
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:74)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:136)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:213)
+	at org.openqa.selenium.remote.RemoteWebDriver.&lt;init&gt;(RemoteWebDriver.java:131)
+	at org.openqa.selenium.chrome.ChromeDriver.&lt;init&gt;(ChromeDriver.java:181)
+	at org.openqa.selenium.chrome.ChromeDriver.&lt;init&gt;(ChromeDriver.java:168)
+	at org.openqa.selenium.chrome.ChromeDriver.&lt;init&gt;(ChromeDriver.java:123)
+	at pnt.automation.base.TestBase.getLocalDriver(TestBase.java:81)
+	at pnt.automation.base.TestBase.setupDriver(TestBase.java:64)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+... Removed 38 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="validateUserBeingAbleToClickOnShopAllHolidaysGifts">
+                  </a> <!-- validateUserBeingAbleToClickOnShopAllHolidaysGifts -->
+                  <span class="method-name">validateUserBeingAbleToClickOnShopAllHolidaysGifts</span>
+                  <div class="stack-trace">org.openqa.selenium.SessionNotCreatedException: session not created
+from chrome not reachable
+  (Session info: chrome=87.0.4280.66)
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
+System info: host: &apos;DESKTOP-DVMI27D&apos;, ip: &apos;192.168.64.1&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;11.0.8&apos;
+Driver info: driver.version: ChromeDriver
+remote stacktrace: Backtrace:
+	Ordinal0 [0x005AC013+3194899]
+	Ordinal0 [0x00496021+2056225]
+	Ordinal0 [0x0032F4B0+586928]
+	Ordinal0 [0x00325894+546964]
+	Ordinal0 [0x00325F2C+548652]
+	Ordinal0 [0x00327175+553333]
+	Ordinal0 [0x0032241E+533534]
+	Ordinal0 [0x00330620+591392]
+	Ordinal0 [0x002D2A0C+207372]
+	Ordinal0 [0x002D1D0D+204045]
+	Ordinal0 [0x002CFC1B+195611]
+	Ordinal0 [0x002B3B7F+80767]
+	Ordinal0 [0x002B4B4E+84814]
+	Ordinal0 [0x002B4AD9+84697]
+	Ordinal0 [0x004ACE64+2149988]
+	GetHandleVerifier [0x0071BE95+1400773]
+	GetHandleVerifier [0x0071BB61+1399953]
+	GetHandleVerifier [0x007231FA+1430314]
+	GetHandleVerifier [0x0071C69F+1402831]
+	Ordinal0 [0x004A3D61+2112865]
+	Ordinal0 [0x004AE5CB+2155979]
+	Ordinal0 [0x004AE6F5+2156277]
+	Ordinal0 [0x004BF26E+2224750]
+	BaseThreadInitThunk [0x761A6359+25]
+	RtlGetAppContainerNamedObjectPath [0x77BA8944+228]
+	RtlGetAppContainerNamedObjectPath [0x77BA8914+180]
+
+	at org.openqa.selenium.remote.W3CHandshakeResponse.lambda$errorHandler$0(W3CHandshakeResponse.java:62)
+	at org.openqa.selenium.remote.HandshakeResponse.lambda$getResponseFunction$0(HandshakeResponse.java:30)
+	at org.openqa.selenium.remote.ProtocolHandshake.lambda$createSession$0(ProtocolHandshake.java:126)
+	at java.base/java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:195)
+	at java.base/java.util.Spliterators$ArraySpliterator.tryAdvance(Spliterators.java:958)
+	at java.base/java.util.stream.ReferencePipeline.forEachWithCancel(ReferencePipeline.java:127)
+	at java.base/java.util.stream.AbstractPipeline.copyIntoWithCancel(AbstractPipeline.java:502)
+	at java.base/java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:488)
+	at java.base/java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:474)
+	at java.base/java.util.stream.FindOps$FindOp.evaluateSequential(FindOps.java:150)
+	at java.base/java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)
+	at java.base/java.util.stream.ReferencePipeline.findFirst(ReferencePipeline.java:543)
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:128)
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:74)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:136)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:213)
+	at org.openqa.selenium.remote.RemoteWebDriver.&lt;init&gt;(RemoteWebDriver.java:131)
+	at org.openqa.selenium.chrome.ChromeDriver.&lt;init&gt;(ChromeDriver.java:181)
+	at org.openqa.selenium.chrome.ChromeDriver.&lt;init&gt;(ChromeDriver.java:168)
+	at org.openqa.selenium.chrome.ChromeDriver.&lt;init&gt;(ChromeDriver.java:123)
+	at pnt.automation.base.TestBase.getLocalDriver(TestBase.java:81)
+	at pnt.automation.base.TestBase.setupDriver(TestBase.java:64)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+... Removed 38 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Selenium_Test_Suite-class-skipped -->
+          <div class="suite-Selenium_Test_Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.amazontest.WholeFoodsValidations</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="validateUserBeingAbleToClickAlexaListTab">
+                  </a> <!-- validateUserBeingAbleToClickAlexaListTab -->
+                  <span class="method-name">validateUserBeingAbleToClickAlexaListTab</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="validateUserBeingAbleToClickOnDealsTab">
+                  </a> <!-- validateUserBeingAbleToClickOnDealsTab -->
+                  <span class="method-name">validateUserBeingAbleToClickOnDealsTab</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Selenium_Test_Suite-class-passed -->
+          <div class="suite-Selenium_Test_Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.amazontest.CustomerServiceValidations</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="validateUserBeingAbleToClickOnDigitalServicesAndDeviceSupportTab">
+                  </a> <!-- validateUserBeingAbleToClickOnDigitalServicesAndDeviceSupportTab -->
+                  <span class="method-name">validateUserBeingAbleToClickOnDigitalServicesAndDeviceSupportTab</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="validateUserBeingAbleToClickOnGetProductHelp">
+                  </a> <!-- validateUserBeingAbleToClickOnGetProductHelp -->
+                  <span class="method-name">validateUserBeingAbleToClickOnGetProductHelp</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="validateUserBeingAbleToClickOnManagePrimeTab">
+                  </a> <!-- validateUserBeingAbleToClickOnManagePrimeTab -->
+                  <span class="method-name">validateUserBeingAbleToClickOnManagePrimeTab</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="validateUserBeingAbleToClickOnPaymentsAndGifCardTab">
+                  </a> <!-- validateUserBeingAbleToClickOnPaymentsAndGifCardTab -->
+                  <span class="method-name">validateUserBeingAbleToClickOnPaymentsAndGifCardTab</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="validateUserBeingAbleToClickOnReturnsandRefunds">
+                  </a> <!-- validateUserBeingAbleToClickOnReturnsandRefunds -->
+                  <span class="method-name">validateUserBeingAbleToClickOnReturnsandRefunds</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="validateUserBeingAbleToClickOnYourOrdersTab">
+                  </a> <!-- validateUserBeingAbleToClickOnYourOrdersTab -->
+                  <span class="method-name">validateUserBeingAbleToClickOnYourOrdersTab</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="validateUserBeingAbleToClickYourAccountTab">
+                  </a> <!-- validateUserBeingAbleToClickYourAccountTab -->
+                  <span class="method-name">validateUserBeingAbleToClickYourAccountTab</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Selenium_Test_Suite-class-passed -->
           <div class="suite-Selenium_Test_Suite-class-passed">
             <div class="main-panel-header rounded-window-top">
               <img src="passed.png"/>
@@ -127,9 +698,80 @@
             <div class="main-panel-content rounded-window-bottom">
               <div class="method">
                 <div class="method-content">
+                  <a name="ValidateUserBeingAbleToClickOnTodaysAmazonBasics">
+                  </a> <!-- ValidateUserBeingAbleToClickOnTodaysAmazonBasics -->
+                  <span class="method-name">ValidateUserBeingAbleToClickOnTodaysAmazonBasics</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="validateUSerBeenAbleToClickOnCustomerServiceButton">
+                  </a> <!-- validateUSerBeenAbleToClickOnCustomerServiceButton -->
+                  <span class="method-name">validateUSerBeenAbleToClickOnCustomerServiceButton</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="validateUSerBeenAbleToClickOnFindAGiftTAb">
+                  </a> <!-- validateUSerBeenAbleToClickOnFindAGiftTAb -->
+                  <span class="method-name">validateUSerBeenAbleToClickOnFindAGiftTAb</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="validateUSerBeenAbleToClickOnWholeFoodTab">
+                  </a> <!-- validateUSerBeenAbleToClickOnWholeFoodTab -->
+                  <span class="method-name">validateUSerBeenAbleToClickOnWholeFoodTab</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="validateUSerBeenAbleToMouseHoverHelloSignInButtonAndClickOnSignInButton">
+                  </a> <!-- validateUSerBeenAbleToMouseHoverHelloSignInButtonAndClickOnSignInButton -->
+                  <span class="method-name">validateUSerBeenAbleToMouseHoverHelloSignInButtonAndClickOnSignInButton</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="validateUSerBeenAbleToRefreshHomePage">
+                  </a> <!-- validateUSerBeenAbleToRefreshHomePage -->
+                  <span class="method-name">validateUSerBeenAbleToRefreshHomePage</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="validateUserBeingAbleToClickOnDropDownAndSelectAmazonPharmacy">
+                  </a> <!-- validateUserBeingAbleToClickOnDropDownAndSelectAmazonPharmacy -->
+                  <span class="method-name">validateUserBeingAbleToClickOnDropDownAndSelectAmazonPharmacy</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
                   <a name="validateUserBeingAbleToTypeOnSearchBar">
                   </a> <!-- validateUserBeingAbleToTypeOnSearchBar -->
                   <span class="method-name">validateUserBeingAbleToTypeOnSearchBar</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Selenium_Test_Suite-class-passed -->
+          <div class="suite-Selenium_Test_Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.amazontest.LoginPageValidations</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="validateUserBeingAbleToCreateAnAccountAndRegister">
+                  </a> <!-- validateUserBeingAbleToCreateAnAccountAndRegister -->
+                  <span class="method-name">validateUserBeingAbleToCreateAnAccountAndRegister</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="validateUserBeingAbleToTypeInEmailAddress">
+                  </a> <!-- validateUserBeingAbleToTypeInEmailAddress -->
+                  <span class="method-name">validateUserBeingAbleToTypeInEmailAddress</span>
                 </div> <!-- method-content -->
               </div> <!-- method -->
             </div> <!-- main-panel-content rounded-window-bottom -->
@@ -147,12 +789,16 @@
   &lt;parameter name=&quot;cloud&quot; value=&quot;false&quot;/&gt;
   &lt;parameter name=&quot;envName&quot; value=&quot;browserstack&quot;/&gt;
   &lt;parameter name=&quot;browser&quot; value=&quot;chrome&quot;/&gt;
-  &lt;parameter name=&quot;browserVersion&quot; value=&quot;85.0&quot;/&gt;
+  &lt;parameter name=&quot;browserVersion&quot; value=&quot;87.0.4280.66&quot;/&gt;
   &lt;parameter name=&quot;url&quot; value=&quot;https://www.amazon.com&quot;/&gt;
   &lt;parameter name=&quot;platform&quot; value=&quot;windows&quot;/&gt;
   &lt;test thread-count=&quot;5&quot; name=&quot;Automation tests&quot; verbose=&quot;0&quot;&gt;
     &lt;classes&gt;
       &lt;class name=&quot;com.amazontest.HomePageValidations&quot;/&gt;
+      &lt;class name=&quot;com.amazontest.LoginPageValidations&quot;/&gt;
+      &lt;class name=&quot;com.amazontest.CustomerServiceValidations&quot;/&gt;
+      &lt;class name=&quot;com.amazontest.WholeFoodsValidations&quot;/&gt;
+      &lt;class name=&quot;com.amazontest.FindAGiftValidations&quot;/&gt;
     &lt;/classes&gt;
   &lt;/test&gt; &lt;!-- Automation tests --&gt;
 &lt;/suite&gt; &lt;!-- Selenium Test Suite --&gt;
@@ -166,7 +812,7 @@
           <div class="main-panel-content rounded-window-bottom">
             <ul>
               <li>
-                <span class="test-name">Automation tests (1 class)</span>
+                <span class="test-name">Automation tests (5 classes)</span>
               </li>
             </ul>
           </div> <!-- main-panel-content rounded-window-bottom -->
@@ -192,16 +838,120 @@ data.addColumn('number', 'Number');
 data.addColumn('string', 'Method');
 data.addColumn('string', 'Class');
 data.addColumn('number', 'Time (ms)');
-data.addRows(1);
+data.addRows(27);
 data.setCell(0, 0, 0)
-data.setCell(0, 1, 'validateUserBeingAbleToTypeOnSearchBar')
-data.setCell(0, 2, 'com.amazontest.HomePageValidations')
-data.setCell(0, 3, 1115);
+data.setCell(0, 1, 'validateUserNotBeingAbleToLoginWithInvalidPassword')
+data.setCell(0, 2, 'com.amazontest.LoginPageValidations')
+data.setCell(0, 3, 40094);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'validateUserBeingAbleToTypePassword')
+data.setCell(1, 2, 'com.amazontest.LoginPageValidations')
+data.setCell(1, 3, 38047);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'validateUserBeingAbleToClickContinueButton')
+data.setCell(2, 2, 'com.amazontest.LoginPageValidations')
+data.setCell(2, 3, 37795);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'validateUserBeingAbleToClickOnCreateAnAccountButton')
+data.setCell(3, 2, 'com.amazontest.LoginPageValidations')
+data.setCell(3, 3, 23726);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, 'validateUserBeingAbleToTypeInEmailAddress')
+data.setCell(4, 2, 'com.amazontest.LoginPageValidations')
+data.setCell(4, 3, 14589);
+data.setCell(5, 0, 5)
+data.setCell(5, 1, 'validateUserBeingAbleToCreateAnAccountAndRegister')
+data.setCell(5, 2, 'com.amazontest.LoginPageValidations')
+data.setCell(5, 3, 13330);
+data.setCell(6, 0, 6)
+data.setCell(6, 1, 'validateUSerBeenAbleToMouseHoverHelloSignInButtonAndClickOnSignInButton')
+data.setCell(6, 2, 'com.amazontest.HomePageValidations')
+data.setCell(6, 3, 10746);
+data.setCell(7, 0, 7)
+data.setCell(7, 1, 'ValidateUserBeingAbleToClickOnTodaysAmazonBasics')
+data.setCell(7, 2, 'com.amazontest.HomePageValidations')
+data.setCell(7, 3, 9472);
+data.setCell(8, 0, 8)
+data.setCell(8, 1, 'validateUserBeingAbleToClickOnDealsTab')
+data.setCell(8, 2, 'com.amazontest.WholeFoodsValidations')
+data.setCell(8, 3, 5782);
+data.setCell(9, 0, 9)
+data.setCell(9, 1, 'validateUserBeingAbleToClickOnDigitalServicesAndDeviceSupportTab')
+data.setCell(9, 2, 'com.amazontest.CustomerServiceValidations')
+data.setCell(9, 3, 5524);
+data.setCell(10, 0, 10)
+data.setCell(10, 1, 'validateUserBeingAbleToClickOnDropDownAndSelectAmazonPharmacy')
+data.setCell(10, 2, 'com.amazontest.HomePageValidations')
+data.setCell(10, 3, 5334);
+data.setCell(11, 0, 11)
+data.setCell(11, 1, 'validateUSerBeenAbleToRefreshHomePage')
+data.setCell(11, 2, 'com.amazontest.HomePageValidations')
+data.setCell(11, 3, 4514);
+data.setCell(12, 0, 12)
+data.setCell(12, 1, 'validateUserBeingAbleToClickOnGetProductHelp')
+data.setCell(12, 2, 'com.amazontest.CustomerServiceValidations')
+data.setCell(12, 3, 4493);
+data.setCell(13, 0, 13)
+data.setCell(13, 1, 'validateUserBeingAbleToClickOnYourOrdersTab')
+data.setCell(13, 2, 'com.amazontest.CustomerServiceValidations')
+data.setCell(13, 3, 4479);
+data.setCell(14, 0, 14)
+data.setCell(14, 1, 'validateUserBeingAbleToClickYourAccountTab')
+data.setCell(14, 2, 'com.amazontest.CustomerServiceValidations')
+data.setCell(14, 3, 4448);
+data.setCell(15, 0, 15)
+data.setCell(15, 1, 'validateUserBeingAbleToClickOnReturnsandRefunds')
+data.setCell(15, 2, 'com.amazontest.CustomerServiceValidations')
+data.setCell(15, 3, 4031);
+data.setCell(16, 0, 16)
+data.setCell(16, 1, 'validateUserBeingAbleToClickOnManagePrimeTab')
+data.setCell(16, 2, 'com.amazontest.CustomerServiceValidations')
+data.setCell(16, 3, 4019);
+data.setCell(17, 0, 17)
+data.setCell(17, 1, 'validateUserBeingAbleToClickAlexaListTab')
+data.setCell(17, 2, 'com.amazontest.WholeFoodsValidations')
+data.setCell(17, 3, 3902);
+data.setCell(18, 0, 18)
+data.setCell(18, 1, 'validateUserBeingAbleToClickOnSearchButton')
+data.setCell(18, 2, 'com.amazontest.HomePageValidations')
+data.setCell(18, 3, 3377);
+data.setCell(19, 0, 19)
+data.setCell(19, 1, 'validateUserBeingAbleToClickOnPaymentsAndGifCardTab')
+data.setCell(19, 2, 'com.amazontest.CustomerServiceValidations')
+data.setCell(19, 3, 3299);
+data.setCell(20, 0, 20)
+data.setCell(20, 1, 'validateUSerBeenAbleToClickOnCustomerServiceButton')
+data.setCell(20, 2, 'com.amazontest.HomePageValidations')
+data.setCell(20, 3, 2830);
+data.setCell(21, 0, 21)
+data.setCell(21, 1, 'validateUSerBeenAbleToClickOnWholeFoodTab')
+data.setCell(21, 2, 'com.amazontest.HomePageValidations')
+data.setCell(21, 3, 2659);
+data.setCell(22, 0, 22)
+data.setCell(22, 1, 'validateUSerBeenAbleToClickOnFindAGiftTAb')
+data.setCell(22, 2, 'com.amazontest.HomePageValidations')
+data.setCell(22, 3, 2230);
+data.setCell(23, 0, 23)
+data.setCell(23, 1, 'validateUserBeingAbleToTypeOnSearchBar')
+data.setCell(23, 2, 'com.amazontest.HomePageValidations')
+data.setCell(23, 3, 852);
+data.setCell(24, 0, 24)
+data.setCell(24, 1, 'validateUserBeingAbleToClickOnPastPurchacesTAb')
+data.setCell(24, 2, 'com.amazontest.WholeFoodsValidations')
+data.setCell(24, 3, 0);
+data.setCell(25, 0, 25)
+data.setCell(25, 1, 'validateUserBeingAbleToClickOnShopAllHolidaysGifts')
+data.setCell(25, 2, 'com.amazontest.FindAGiftValidations')
+data.setCell(25, 3, 0);
+data.setCell(26, 0, 26)
+data.setCell(26, 1, 'validateUserBeingAbleToClickOnElectronicGifts')
+data.setCell(26, 2, 'com.amazontest.FindAGiftValidations')
+data.setCell(26, 3, 0);
 window.suiteTableData['Selenium_Test_Suite']= { tableData: data, tableDiv: 'times-div-Selenium_Test_Suite'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 1 seconds</span>
+              <span class="suite-total-time">Total running time: 4 minutes</span>
               <div id="times-div-Selenium_Test_Suite">
               </div> <!-- times-div-Selenium_Test_Suite -->
             </div> <!-- times-div -->
@@ -212,13 +962,62 @@ return data;
             <span class="header-content">Reporter output for Selenium Test Suite</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">validateUserBeingAbleToTypeOnSearchBar</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output"><<<<<<<Iphones have been Typed>>>>>>><br></span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
         <div panel-name="ignored-methods-Selenium_Test_Suite" class="panel">
           <div class="main-panel-header rounded-window-top">
-            <span class="header-content">0 ignored methods</span>
+            <span class="header-content">9 ignored methods</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">com.amazontest.WholeFoodsValidations</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">generateReport</span>
+                <br/>
+                <span class="ignored-method-name">extentSetup</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">com.amazontest.CustomerServiceValidations</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">generateReport</span>
+                <br/>
+                <span class="ignored-method-name">extentSetup</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">com.amazontest.FindAGiftValidations</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">generateReport</span>
+                <br/>
+                <span class="ignored-method-name">extentSetup</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">com.amazontest.HomePageValidations</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">validateUserBeingAbleToMouseHoverPrimeButton</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">com.amazontest.LoginPageValidations</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">generateReport</span>
+                <br/>
+                <span class="ignored-method-name">extentSetup</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
         <div panel-name="chronological-Selenium_Test_Suite" class="panel">
@@ -229,32 +1028,583 @@ return data;
             <div class="chronological-class">
               <div class="chronological-class-name">com.amazontest.HomePageValidations</div> <!-- chronological-class-name -->
               <div class="configuration-suite before">
-                <span class="method-name">extentSetup(org.testng.TestRunner@c6634d)</span>
+                <span class="method-name">extentSetup(org.testng.TestRunner@4756e5cc)</span>
                 <span class="method-start">0 ms</span>
               </div> <!-- configuration-suite before -->
               <div class="configuration-method before">
-                <span class="method-name">setupDriver(windows, https://www.amazon.com, chrome, false, 85.0, browserstack)</span>
-                <span class="method-start">337 ms</span>
+                <span class="method-name">setupDriver(windows, https://www.amazon.com, chrome, false, 87.0.4280.66, browserstack)</span>
+                <span class="method-start">210 ms</span>
               </div> <!-- configuration-method before -->
               <div class="configuration-method before">
-                <span class="method-name">startExtent(public void com.amazontest.HomePageValidations.validateUserBeingAbleToTypeOnSearchBar())</span>
-                <span class="method-start">12708 ms</span>
+                <span class="method-name">startExtent(public void com.amazontest.HomePageValidations.ValidateUserBeingAbleToClickOnTodaysAmazonBasics())</span>
+                <span class="method-start">12062 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
-                <span class="method-name">validateUserBeingAbleToTypeOnSearchBar</span>
-                <span class="method-start">12714 ms</span>
+                <span class="method-name">ValidateUserBeingAbleToClickOnTodaysAmazonBasics</span>
+                <span class="method-start">12069 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
-                <span class="method-name">afterEachTestMethod([TestResult name=validateUserBeingAbleToTypeOnSearchBar status=SUCCESS method=HomePageValidations.va...)</span>
-                <span class="method-start">13834 ms</span>
+                <span class="method-name">afterEachTestMethod([TestResult name=ValidateUserBeingAbleToClickOnTodaysAmazonBasics status=SUCCESS method=HomePageVali...)</span>
+                <span class="method-start">21542 ms</span>
               </div> <!-- configuration-method after -->
               <div class="configuration-method after">
                 <span class="method-name">cleanUp</span>
-                <span class="method-start">14979 ms</span>
+                <span class="method-start">22043 ms</span>
               </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setupDriver(windows, https://www.amazon.com, chrome, false, 87.0.4280.66, browserstack)</span>
+                <span class="method-start">23044 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <span class="method-name">startExtent(public void com.amazontest.HomePageValidations.validateUSerBeenAbleToClickOnCustomerServiceButton())</span>
+                <span class="method-start">34419 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">validateUSerBeenAbleToClickOnCustomerServiceButton</span>
+                <span class="method-start">34420 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterEachTestMethod([TestResult name=validateUSerBeenAbleToClickOnCustomerServiceButton status=SUCCESS method=HomePageVa...)</span>
+                <span class="method-start">37251 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method after">
+                <span class="method-name">cleanUp</span>
+                <span class="method-start">37399 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setupDriver(windows, https://www.amazon.com, chrome, false, 87.0.4280.66, browserstack)</span>
+                <span class="method-start">38525 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <span class="method-name">startExtent(public void com.amazontest.HomePageValidations.validateUSerBeenAbleToClickOnFindAGiftTAb())</span>
+                <span class="method-start">49102 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">validateUSerBeenAbleToClickOnFindAGiftTAb</span>
+                <span class="method-start">49103 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterEachTestMethod([TestResult name=validateUSerBeenAbleToClickOnFindAGiftTAb status=SUCCESS method=HomePageValidations...)</span>
+                <span class="method-start">51333 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method after">
+                <span class="method-name">cleanUp</span>
+                <span class="method-start">51400 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setupDriver(windows, https://www.amazon.com, chrome, false, 87.0.4280.66, browserstack)</span>
+                <span class="method-start">53189 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <span class="method-name">startExtent(public void com.amazontest.HomePageValidations.validateUSerBeenAbleToClickOnWholeFoodTab())</span>
+                <span class="method-start">64201 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">validateUSerBeenAbleToClickOnWholeFoodTab</span>
+                <span class="method-start">64202 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterEachTestMethod([TestResult name=validateUSerBeenAbleToClickOnWholeFoodTab status=SUCCESS method=HomePageValidations...)</span>
+                <span class="method-start">66862 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method after">
+                <span class="method-name">cleanUp</span>
+                <span class="method-start">66957 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setupDriver(windows, https://www.amazon.com, chrome, false, 87.0.4280.66, browserstack)</span>
+                <span class="method-start">68003 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <span class="method-name">startExtent(public void com.amazontest.HomePageValidations.validateUSerBeenAbleToMouseHoverHelloSignInButtonAndC...)</span>
+                <span class="method-start">78908 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">validateUSerBeenAbleToMouseHoverHelloSignInButtonAndClickOnSignInButton</span>
+                <span class="method-start">78908 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterEachTestMethod([TestResult name=validateUSerBeenAbleToMouseHoverHelloSignInButtonAndClickOnSignInButton status=SUCC...)</span>
+                <span class="method-start">89654 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method after">
+                <span class="method-name">cleanUp</span>
+                <span class="method-start">89716 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setupDriver(windows, https://www.amazon.com, chrome, false, 87.0.4280.66, browserstack)</span>
+                <span class="method-start">90675 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <span class="method-name">startExtent(public void com.amazontest.HomePageValidations.validateUSerBeenAbleToRefreshHomePage())</span>
+                <span class="method-start">101305 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">validateUSerBeenAbleToRefreshHomePage</span>
+                <span class="method-start">101306 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterEachTestMethod([TestResult name=validateUSerBeenAbleToRefreshHomePage status=SUCCESS method=HomePageValidations.val...)</span>
+                <span class="method-start">105821 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method after">
+                <span class="method-name">cleanUp</span>
+                <span class="method-start">105868 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setupDriver(windows, https://www.amazon.com, chrome, false, 87.0.4280.66, browserstack)</span>
+                <span class="method-start">108144 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <span class="method-name">startExtent(public void com.amazontest.HomePageValidations.validateUserBeingAbleToClickOnDropDownAndSelectAmazon...)</span>
+                <span class="method-start">118213 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">validateUserBeingAbleToClickOnDropDownAndSelectAmazonPharmacy</span>
+                <span class="method-start">118214 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterEachTestMethod([TestResult name=validateUserBeingAbleToClickOnDropDownAndSelectAmazonPharmacy status=SUCCESS method...)</span>
+                <span class="method-start">123548 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method after">
+                <span class="method-name">cleanUp</span>
+                <span class="method-start">123594 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setupDriver(windows, https://www.amazon.com, chrome, false, 87.0.4280.66, browserstack)</span>
+                <span class="method-start">124559 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <span class="method-name">startExtent(public void com.amazontest.HomePageValidations.validateUserBeingAbleToClickOnSearchButton())</span>
+                <span class="method-start">135583 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">validateUserBeingAbleToClickOnSearchButton</span>
+                <span class="method-start">135584 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterEachTestMethod([TestResult name=validateUserBeingAbleToClickOnSearchButton status=FAILURE method=HomePageValidation...)</span>
+                <span class="method-start">138971 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method after">
+                <span class="method-name">cleanUp</span>
+                <span class="method-start">139870 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setupDriver(windows, https://www.amazon.com, chrome, false, 87.0.4280.66, browserstack)</span>
+                <span class="method-start">141394 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <span class="method-name">startExtent(public void com.amazontest.HomePageValidations.validateUserBeingAbleToTypeOnSearchBar())</span>
+                <span class="method-start">152823 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">validateUserBeingAbleToTypeOnSearchBar</span>
+                <span class="method-start">152823 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterEachTestMethod([TestResult name=validateUserBeingAbleToTypeOnSearchBar status=SUCCESS method=HomePageValidations.va...)</span>
+                <span class="method-start">153676 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method after">
+                <span class="method-name">cleanUp</span>
+                <span class="method-start">153745 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.amazontest.LoginPageValidations</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">setupDriver(windows, https://www.amazon.com, chrome, false, 87.0.4280.66, browserstack)</span>
+                <span class="method-start">154828 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <span class="method-name">startExtent(public void com.amazontest.LoginPageValidations.validateUserBeingAbleToClickContinueButton())</span>
+                <span class="method-start">165851 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">validateUserBeingAbleToClickContinueButton</span>
+                <span class="method-start">165851 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterEachTestMethod([TestResult name=validateUserBeingAbleToClickContinueButton status=FAILURE method=LoginPageValidatio...)</span>
+                <span class="method-start">203647 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method after">
+                <span class="method-name">cleanUp</span>
+                <span class="method-start">204046 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setupDriver(windows, https://www.amazon.com, chrome, false, 87.0.4280.66, browserstack)</span>
+                <span class="method-start">204813 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <span class="method-name">startExtent(public void com.amazontest.LoginPageValidations.validateUserBeingAbleToClickOnCreateAnAccountButton(...)</span>
+                <span class="method-start">215207 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">validateUserBeingAbleToClickOnCreateAnAccountButton</span>
+                <span class="method-start">215208 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterEachTestMethod([TestResult name=validateUserBeingAbleToClickOnCreateAnAccountButton status=FAILURE method=LoginPage...)</span>
+                <span class="method-start">238934 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method after">
+                <span class="method-name">cleanUp</span>
+                <span class="method-start">239454 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setupDriver(windows, https://www.amazon.com, chrome, false, 87.0.4280.66, browserstack)</span>
+                <span class="method-start">240383 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <span class="method-name">startExtent(public void com.amazontest.LoginPageValidations.validateUserBeingAbleToCreateAnAccountAndRegister())</span>
+                <span class="method-start">250597 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">validateUserBeingAbleToCreateAnAccountAndRegister</span>
+                <span class="method-start">250598 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterEachTestMethod([TestResult name=validateUserBeingAbleToCreateAnAccountAndRegister status=SUCCESS method=LoginPageVa...)</span>
+                <span class="method-start">263928 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method after">
+                <span class="method-name">cleanUp</span>
+                <span class="method-start">263974 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setupDriver(windows, https://www.amazon.com, chrome, false, 87.0.4280.66, browserstack)</span>
+                <span class="method-start">264793 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <span class="method-name">startExtent(public void com.amazontest.LoginPageValidations.validateUserBeingAbleToTypeInEmailAddress())</span>
+                <span class="method-start">275198 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">validateUserBeingAbleToTypeInEmailAddress</span>
+                <span class="method-start">275199 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterEachTestMethod([TestResult name=validateUserBeingAbleToTypeInEmailAddress status=SUCCESS method=LoginPageValidation...)</span>
+                <span class="method-start">289789 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method after">
+                <span class="method-name">cleanUp</span>
+                <span class="method-start">289827 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setupDriver(windows, https://www.amazon.com, chrome, false, 87.0.4280.66, browserstack)</span>
+                <span class="method-start">290525 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <span class="method-name">startExtent(public void com.amazontest.LoginPageValidations.validateUserBeingAbleToTypePassword())</span>
+                <span class="method-start">300622 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">validateUserBeingAbleToTypePassword</span>
+                <span class="method-start">300623 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterEachTestMethod([TestResult name=validateUserBeingAbleToTypePassword status=FAILURE method=LoginPageValidations.vali...)</span>
+                <span class="method-start">338671 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method after">
+                <span class="method-name">cleanUp</span>
+                <span class="method-start">339165 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setupDriver(windows, https://www.amazon.com, chrome, false, 87.0.4280.66, browserstack)</span>
+                <span class="method-start">340003 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <span class="method-name">startExtent(public void com.amazontest.LoginPageValidations.validateUserNotBeingAbleToLoginWithInvalidPassword())</span>
+                <span class="method-start">352309 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">validateUserNotBeingAbleToLoginWithInvalidPassword</span>
+                <span class="method-start">352310 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">afterEachTestMethod([TestResult name=validateUserNotBeingAbleToLoginWithInvalidPassword status=FAILURE method=LoginPageV...)</span>
+                <span class="method-start">392405 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method after">
+                <span class="method-name">cleanUp</span>
+                <span class="method-start">452493 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.amazontest.CustomerServiceValidations</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">setupDriver(windows, https://www.amazon.com, chrome, false, 87.0.4280.66, browserstack)</span>
+                <span class="method-start">452495 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <span class="method-name">startExtent(public void com.amazontest.CustomerServiceValidations.validateUserBeingAbleToClickOnDigitalServicesA...)</span>
+                <span class="method-start">462658 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">validateUserBeingAbleToClickOnDigitalServicesAndDeviceSupportTab</span>
+                <span class="method-start">462659 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterEachTestMethod([TestResult name=validateUserBeingAbleToClickOnDigitalServicesAndDeviceSupportTab status=SUCCESS met...)</span>
+                <span class="method-start">468183 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method after">
+                <span class="method-name">cleanUp</span>
+                <span class="method-start">468240 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setupDriver(windows, https://www.amazon.com, chrome, false, 87.0.4280.66, browserstack)</span>
+                <span class="method-start">469286 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <span class="method-name">startExtent(public void com.amazontest.CustomerServiceValidations.validateUserBeingAbleToClickOnGetProductHelp())</span>
+                <span class="method-start">480345 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">validateUserBeingAbleToClickOnGetProductHelp</span>
+                <span class="method-start">480345 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterEachTestMethod([TestResult name=validateUserBeingAbleToClickOnGetProductHelp status=SUCCESS method=CustomerServiceV...)</span>
+                <span class="method-start">484838 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method after">
+                <span class="method-name">cleanUp</span>
+                <span class="method-start">484883 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setupDriver(windows, https://www.amazon.com, chrome, false, 87.0.4280.66, browserstack)</span>
+                <span class="method-start">485961 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <span class="method-name">startExtent(public void com.amazontest.CustomerServiceValidations.validateUserBeingAbleToClickOnManagePrimeTab())</span>
+                <span class="method-start">497098 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">validateUserBeingAbleToClickOnManagePrimeTab</span>
+                <span class="method-start">497098 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterEachTestMethod([TestResult name=validateUserBeingAbleToClickOnManagePrimeTab status=SUCCESS method=CustomerServiceV...)</span>
+                <span class="method-start">501118 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method after">
+                <span class="method-name">cleanUp</span>
+                <span class="method-start">501175 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setupDriver(windows, https://www.amazon.com, chrome, false, 87.0.4280.66, browserstack)</span>
+                <span class="method-start">501974 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <span class="method-name">startExtent(public void com.amazontest.CustomerServiceValidations.validateUserBeingAbleToClickOnPaymentsAndGifCa...)</span>
+                <span class="method-start">512934 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">validateUserBeingAbleToClickOnPaymentsAndGifCardTab</span>
+                <span class="method-start">512935 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterEachTestMethod([TestResult name=validateUserBeingAbleToClickOnPaymentsAndGifCardTab status=SUCCESS method=CustomerS...)</span>
+                <span class="method-start">516234 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method after">
+                <span class="method-name">cleanUp</span>
+                <span class="method-start">516311 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setupDriver(windows, https://www.amazon.com, chrome, false, 87.0.4280.66, browserstack)</span>
+                <span class="method-start">517157 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <span class="method-name">startExtent(public void com.amazontest.CustomerServiceValidations.validateUserBeingAbleToClickOnReturnsandRefund...)</span>
+                <span class="method-start">528105 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">validateUserBeingAbleToClickOnReturnsandRefunds</span>
+                <span class="method-start">528105 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterEachTestMethod([TestResult name=validateUserBeingAbleToClickOnReturnsandRefunds status=SUCCESS method=CustomerServi...)</span>
+                <span class="method-start">532136 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method after">
+                <span class="method-name">cleanUp</span>
+                <span class="method-start">532180 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setupDriver(windows, https://www.amazon.com, chrome, false, 87.0.4280.66, browserstack)</span>
+                <span class="method-start">533050 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <span class="method-name">startExtent(public void com.amazontest.CustomerServiceValidations.validateUserBeingAbleToClickOnYourOrdersTab())</span>
+                <span class="method-start">543868 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">validateUserBeingAbleToClickOnYourOrdersTab</span>
+                <span class="method-start">543868 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterEachTestMethod([TestResult name=validateUserBeingAbleToClickOnYourOrdersTab status=SUCCESS method=CustomerServiceVa...)</span>
+                <span class="method-start">548347 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method after">
+                <span class="method-name">cleanUp</span>
+                <span class="method-start">548392 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setupDriver(windows, https://www.amazon.com, chrome, false, 87.0.4280.66, browserstack)</span>
+                <span class="method-start">550328 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <span class="method-name">startExtent(public void com.amazontest.CustomerServiceValidations.validateUserBeingAbleToClickYourAccountTab())</span>
+                <span class="method-start">561284 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">validateUserBeingAbleToClickYourAccountTab</span>
+                <span class="method-start">561284 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterEachTestMethod([TestResult name=validateUserBeingAbleToClickYourAccountTab status=SUCCESS method=CustomerServiceVal...)</span>
+                <span class="method-start">565732 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method after">
+                <span class="method-name">cleanUp</span>
+                <span class="method-start">565767 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.amazontest.WholeFoodsValidations</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">setupDriver(windows, https://www.amazon.com, chrome, false, 87.0.4280.66, browserstack)</span>
+                <span class="method-start">566710 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <span class="method-name">startExtent(public void com.amazontest.WholeFoodsValidations.validateUserBeingAbleToClickAlexaListTab())</span>
+                <span class="method-start">577750 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">validateUserBeingAbleToClickAlexaListTab</span>
+                <span class="method-start">577751 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterEachTestMethod([TestResult name=validateUserBeingAbleToClickAlexaListTab status=SUCCESS method=WholeFoodsValidation...)</span>
+                <span class="method-start">581653 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method after">
+                <span class="method-name">cleanUp</span>
+                <span class="method-start">581714 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setupDriver(windows, https://www.amazon.com, chrome, false, 87.0.4280.66, browserstack)</span>
+                <span class="method-start">582612 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <span class="method-name">startExtent(public void com.amazontest.WholeFoodsValidations.validateUserBeingAbleToClickOnDealsTab())</span>
+                <span class="method-start">593617 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">validateUserBeingAbleToClickOnDealsTab</span>
+                <span class="method-start">593617 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterEachTestMethod([TestResult name=validateUserBeingAbleToClickOnDealsTab status=SUCCESS method=WholeFoodsValidations....)</span>
+                <span class="method-start">599399 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method after">
+                <span class="method-name">cleanUp</span>
+                <span class="method-start">599447 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">setupDriver(windows, https://www.amazon.com, chrome, false, 87.0.4280.66, browserstack)</span>
+                <span class="method-start">600252 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <span class="method-name">startExtent</span>
+                <span class="method-start">635810 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">validateUserBeingAbleToClickOnPastPurchacesTAb</span>
+                <span class="method-start">635811 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterEachTestMethod</span>
+                <span class="method-start">635812 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method after">
+                <span class="method-name">cleanUp</span>
+                <span class="method-start">635812 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.amazontest.FindAGiftValidations</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">setupDriver(windows, https://www.amazon.com, chrome, false, 87.0.4280.66, browserstack)</span>
+                <span class="method-start">635812 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <span class="method-name">startExtent</span>
+                <span class="method-start">649177 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">validateUserBeingAbleToClickOnElectronicGifts</span>
+                <span class="method-start">649181 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterEachTestMethod</span>
+                <span class="method-start">649188 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method after">
+                <span class="method-name">cleanUp</span>
+                <span class="method-start">649190 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setupDriver</span>
+                <span class="method-start">649194 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <span class="method-name">startExtent</span>
+                <span class="method-start">649196 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">validateUserBeingAbleToClickOnShopAllHolidaysGifts</span>
+                <span class="method-start">649198 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterEachTestMethod</span>
+                <span class="method-start">649200 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method after">
+                <span class="method-name">cleanUp</span>
+                <span class="method-start">649201 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.amazontest.HomePageValidations</div> <!-- chronological-class-name -->
               <div class="configuration-suite after">
                 <span class="method-name">generateReport</span>
-                <span class="method-start">16102 ms</span>
+                <span class="method-start">649281 ms</span>
               </div> <!-- configuration-suite after -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->

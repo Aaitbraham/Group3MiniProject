@@ -1,2 +1,6 @@
-com\amazon\LoginPage.class
-com\amazon\HomePage.class
+com\amazon\pages\CustomerService.class
+com\amazon\pages\WholeFoods.class
+com\amazon\data\DataProviders.class
+com\amazon\pages\FindAGift.class
+com\amazon\pages\HomePage.class
+com\amazon\pages\LoginPage.class

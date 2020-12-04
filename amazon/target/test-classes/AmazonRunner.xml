@@ -11,12 +11,18 @@
 
     <parameter name="cloud" value="false"/>
     <parameter name="envName" value="browserstack"/>
-    <parameter name="browserVersion" value="85.0"/>
+    <parameter name="browserVersion" value="87.0.4280.66"/>
 
 
     <test name="Automation tests">
         <classes>
             <class name="com.amazontest.HomePageValidations"/>
+            <class name="com.amazontest.LoginPageValidations"/>
+            <class name="com.amazontest.CustomerServiceValidations"/>
+            <class name="com.amazontest.WholeFoodsValidations"/>
+            <class name="com.amazontest.FindAGiftValidations"/>
+
+
         </classes>
     </test>
 </suite>

@@ -1,2 +1,5 @@
+com\amazontest\WholeFoodsValidations.class
+com\amazontest\CustomerServiceValidations.class
+com\amazontest\FindAGiftValidations.class
 com\amazontest\LoginPageValidations.class
 com\amazontest\HomePageValidations.class
