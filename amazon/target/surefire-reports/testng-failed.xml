@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Selenium Test Suite]" guice-stage="DEVELOPMENT" verbose="0">
+  <parameter name="cloud" value="false"/>
+  <parameter name="envName" value="browserstack"/>
+  <parameter name="browser" value="chrome"/>
+  <parameter name="browserVersion" value="87.0.4280.66"/>
+  <parameter name="url" value="https://www.amazon.com"/>
+  <parameter name="platform" value="windows"/>
+  <test thread-count="5" name="Automation tests(failed)" verbose="0">
+    <classes>
+      <class name="com.amazontest.WholeFoodsValidations">
+        <methods>
+          <include name="afterEachTestMethod"/>
+          <include name="setupDriver"/>
+          <include name="validateUserBeingAbleToClickOnPastPurchacesTAb"/>
+          <include name="startExtent"/>
+          <include name="generateReport"/>
+          <include name="cleanUp"/>
+          <include name="extentSetup"/>
+        </methods>
+      </class> <!-- com.amazontest.WholeFoodsValidations -->
+      <class name="com.amazontest.FindAGiftValidations">
+        <methods>
+          <include name="afterEachTestMethod"/>
+          <include name="validateUserBeingAbleToClickOnElectronicGifts"/>
+          <include name="setupDriver"/>
+          <include name="startExtent"/>
+          <include name="generateReport"/>
+          <include name="cleanUp"/>
+          <include name="validateUserBeingAbleToClickOnShopAllHolidaysGifts"/>
+          <include name="extentSetup"/>
+        </methods>
+      </class> <!-- com.amazontest.FindAGiftValidations -->
+      <class name="com.amazontest.HomePageValidations">
+        <methods>
+          <include name="afterEachTestMethod"/>
+          <include name="setupDriver"/>
+          <include name="startExtent"/>
+          <include name="generateReport"/>
+          <include name="cleanUp"/>
+          <include name="validateUserBeingAbleToClickOnSearchButton"/>
+          <include name="extentSetup"/>
+        </methods>
+      </class> <!-- com.amazontest.HomePageValidations -->
+      <class name="com.amazontest.LoginPageValidations">
+        <methods>
+          <include name="afterEachTestMethod"/>
+          <include name="validateUserBeingAbleToClickContinueButton"/>
+          <include name="setupDriver"/>
+          <include name="validateUserBeingAbleToTypePassword"/>
+          <include name="validateUserBeingAbleToClickOnCreateAnAccountButton"/>
+          <include name="startExtent"/>
+          <include name="generateReport"/>
+          <include name="cleanUp"/>
+          <include name="validateUserNotBeingAbleToLoginWithInvalidPassword"/>
+          <include name="extentSetup"/>
+        </methods>
+      </class> <!-- com.amazontest.LoginPageValidations -->
+    </classes>
+  </test> <!-- Automation tests(failed) -->
+</suite> <!-- Failed suite [Selenium Test Suite] -->

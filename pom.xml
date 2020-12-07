@@ -19,6 +19,7 @@
 
     <modules>
         <module>generic</module>
+        <module>amazon</module>
     </modules>
 
     <dependencyManagement>

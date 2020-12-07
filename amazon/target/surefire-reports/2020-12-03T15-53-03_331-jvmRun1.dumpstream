@@ -1,0 +1,278 @@
+# Created at 2020-12-03T16:03:46.625
+TestSet has not finished before stream error has appeared >> initializing exit by non-null configuration: DEFAULT
+java.io.EOFException
+	at java.base/java.io.DataInputStream.readInt(DataInputStream.java:397)
+	at org.apache.maven.surefire.booter.MasterProcessCommand.decode(MasterProcessCommand.java:115)
+	at org.apache.maven.surefire.booter.CommandReader$CommandRunnable.run(CommandReader.java:390)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+
+
+# Created at 2020-12-03T16:03:48.028
+Unexpected IOException with stream: [
+
+# Created at 2020-12-03T16:03:48.032
+Unexpected IOException with stream: 1
+
+# Created at 2020-12-03T16:03:48.034
+Unexpected IOException with stream: 6
+
+# Created at 2020-12-03T16:03:48.035
+Unexpected IOException with stream: 0
+
+# Created at 2020-12-03T16:03:48.036
+Unexpected IOException with stream: 7
+
+# Created at 2020-12-03T16:03:48.037
+Unexpected IOException with stream: 0
+
+# Created at 2020-12-03T16:03:48.038
+Unexpected IOException with stream: 2
+
+# Created at 2020-12-03T16:03:48.039
+Unexpected IOException with stream: 9
+
+# Created at 2020-12-03T16:03:48.040
+Unexpected IOException with stream: 4
+
+# Created at 2020-12-03T16:03:48.041
+Unexpected IOException with stream: 2
+
+# Created at 2020-12-03T16:03:48.042
+Unexpected IOException with stream: 8
+
+# Created at 2020-12-03T16:03:48.043
+Unexpected IOException with stream: .
+
+# Created at 2020-12-03T16:03:48.044
+Unexpected IOException with stream: 0
+
+# Created at 2020-12-03T16:03:48.044
+Unexpected IOException with stream: 2
+
+# Created at 2020-12-03T16:03:48.045
+Unexpected IOException with stream: 7
+
+# Created at 2020-12-03T16:03:48.046
+Unexpected IOException with stream: ]
+
+# Created at 2020-12-03T16:03:48.047
+Unexpected IOException with stream: [
+
+# Created at 2020-12-03T16:03:48.048
+Unexpected IOException with stream: W
+
+# Created at 2020-12-03T16:03:48.049
+Unexpected IOException with stream: A
+
+# Created at 2020-12-03T16:03:48.050
+Unexpected IOException with stream: R
+
+# Created at 2020-12-03T16:03:48.050
+Unexpected IOException with stream: N
+
+# Created at 2020-12-03T16:03:48.051
+Unexpected IOException with stream: I
+
+# Created at 2020-12-03T16:03:48.052
+Unexpected IOException with stream: N
+
+# Created at 2020-12-03T16:03:48.053
+Unexpected IOException with stream: G
+
+# Created at 2020-12-03T16:03:48.054
+Unexpected IOException with stream: ]
+
+# Created at 2020-12-03T16:03:48.056
+Unexpected IOException with stream: :
+
+# Created at 2020-12-03T16:03:48.057
+Unexpected IOException with stream:  
+
+# Created at 2020-12-03T16:03:48.058
+Unexpected IOException with stream: T
+
+# Created at 2020-12-03T16:03:48.059
+Unexpected IOException with stream: i
+
+# Created at 2020-12-03T16:03:48.060
+Unexpected IOException with stream: m
+
+# Created at 2020-12-03T16:03:48.060
+Unexpected IOException with stream: e
+
+# Created at 2020-12-03T16:03:48.061
+Unexpected IOException with stream: d
+
+# Created at 2020-12-03T16:03:48.062
+Unexpected IOException with stream:  
+
+# Created at 2020-12-03T16:03:48.062
+Unexpected IOException with stream: o
+
+# Created at 2020-12-03T16:03:48.064
+Unexpected IOException with stream: u
+
+# Created at 2020-12-03T16:03:48.066
+Unexpected IOException with stream: t
+
+# Created at 2020-12-03T16:03:48.068
+Unexpected IOException with stream:  
+
+# Created at 2020-12-03T16:03:48.069
+Unexpected IOException with stream: c
+
+# Created at 2020-12-03T16:03:48.070
+Unexpected IOException with stream: o
+
+# Created at 2020-12-03T16:03:48.071
+Unexpected IOException with stream: n
+
+# Created at 2020-12-03T16:03:48.071
+Unexpected IOException with stream: n
+
+# Created at 2020-12-03T16:03:48.072
+Unexpected IOException with stream: e
+
+# Created at 2020-12-03T16:03:48.074
+Unexpected IOException with stream: c
+
+# Created at 2020-12-03T16:03:48.075
+Unexpected IOException with stream: t
+
+# Created at 2020-12-03T16:03:48.077
+Unexpected IOException with stream: i
+
+# Created at 2020-12-03T16:03:48.086
+Unexpected IOException with stream: n
+
+# Created at 2020-12-03T16:03:48.087
+Unexpected IOException with stream: g
+
+# Created at 2020-12-03T16:03:48.087
+Unexpected IOException with stream:  
+
+# Created at 2020-12-03T16:03:48.089
+Unexpected IOException with stream: t
+
+# Created at 2020-12-03T16:03:48.089
+Unexpected IOException with stream: o
+
+# Created at 2020-12-03T16:03:48.090
+Unexpected IOException with stream:  
+
+# Created at 2020-12-03T16:03:48.091
+Unexpected IOException with stream: C
+
+# Created at 2020-12-03T16:03:48.092
+Unexpected IOException with stream: h
+
+# Created at 2020-12-03T16:03:48.094
+Unexpected IOException with stream: r
+
+# Created at 2020-12-03T16:03:48.096
+Unexpected IOException with stream: o
+
+# Created at 2020-12-03T16:03:48.097
+Unexpected IOException with stream: m
+
+# Created at 2020-12-03T16:03:48.097
+Unexpected IOException with stream: e
+
+# Created at 2020-12-03T16:03:48.099
+Unexpected IOException with stream: ,
+
+# Created at 2020-12-03T16:03:48.099
+Unexpected IOException with stream:  
+
+# Created at 2020-12-03T16:03:48.100
+Unexpected IOException with stream: r
+
+# Created at 2020-12-03T16:03:48.100
+Unexpected IOException with stream: e
+
+# Created at 2020-12-03T16:03:48.101
+Unexpected IOException with stream: t
+
+# Created at 2020-12-03T16:03:48.101
+Unexpected IOException with stream: r
+
+# Created at 2020-12-03T16:03:48.101
+Unexpected IOException with stream: y
+
+# Created at 2020-12-03T16:03:48.102
+Unexpected IOException with stream: i
+
+# Created at 2020-12-03T16:03:48.103
+Unexpected IOException with stream: n
+
+# Created at 2020-12-03T16:03:48.104
+Unexpected IOException with stream: g
+
+# Created at 2020-12-03T16:03:48.105
+Unexpected IOException with stream: .
+
+# Created at 2020-12-03T16:03:48.106
+Unexpected IOException with stream: .
+
+# Created at 2020-12-03T16:03:48.106
+Unexpected IOException with stream: .
+
+# Created at 2020-12-03T16:03:48.107
+Unexpected IOException with stream: 
+
+# Created at 2020-12-03T16:03:48.108
+Unexpected IOException with stream: 
+
+
+# Created at 2020-12-03T16:03:56.044
+Unexpected IOException: 8,1,com.amazontest.FindAGiftValidations,setupDriver(com.amazontest.FindAGiftValidations),null,session not created\000Afrom chrome not reachable\000A  (Session info: chrome=87.0.4280.66)\000ABuild info: version: '3.141.59'\002C revision: 'e82be7d358'\002C time: '2018-11-14T08:17:03'\000ASystem info: host: 'DESKTOP-DVMI27D'\002C ip: '192.168.64.1'\002C os.name: 'Windows 10'\002C os.arch: 'amd64'\002C os.version: '10.0'\002C java.version: '11.0.8'\000ADriver info: driver.version: ChromeDriver\000Aremote stacktrace: Backtrace:\000A\0009Ordinal0 [0x005AC013+3194899]\000A\0009Ordinal0 [0x00496021+2056225]\000A\0009Ordinal0 [0x0032F4B0+586928]\000A\0009Ordinal0 [0x00325894+546964]\000A\0009Ordinal0 [0x00325F2C+548652]\000A\0009Ordinal0 [0x00327175+553333]\000A\0009Ordinal0 [0x0032241E+533534]\000A\0009Ordinal0 [0x00330620+591392]\000A\0009Ordinal0 [0x002D2A0C+207372]\000A\0009Ordinal0 [0x002D1D0D+204045]\000A\0009Ordinal0 [0x002CFC1B+195611]\000A\0009Ordinal0 [0x002B3B7F+80767]\000A\0009Ordinal0 [0x002B4B4E+84814]\000A\0009Ordinal0 [0x002B4AD9+84697]\000A\0009Ordinal0 [0x004ACE64+2149988]\000A\0009GetHandleVerifier [0x0071BE95+1400773]\000A\0009GetHandleVerifier [0x0071BB61+1399953]\000A\0009GetHandleVerifier [0x007231FA+1430314]\000A\0009GetHandleVerifier [0x0071C69F+1402831]\000A\0009Ordinal0 [0x004A3D61+2112865]\000A\0009Ordinal0 [0x004AE5CB+2155979]\000A\0009Ordinal0 [0x004AE6F5+2156277]\000A\0009Ordinal0 [0x004BF26E+2224750]\000A\0009BaseThreadInitThunk [0x761A6359+25]\000A\0009RtlGetAppContainerNamedObjectPath [0x77BA8944+228]\000A\0009RtlGetAppContainerNamedObjectPath [0x77BA8914+180]\000A,null,session not created\000Afrom chrome not reachable\000A  (Session info: chrome=87.0.4280.66)\000ABuild info: version: '3.141.59'\002C revision: 'e82be7d358'\002C time: '2018-11-14T08:17:03'\000ASystem info: host: 'DESKTOP-DVMI27D'\002C ip: '192.168.64.1'\002C os.name: 'Windows 10'\002C os.arch: 'amd64'\002C os.version: '10.0'\002C java.version: '11.0.8'\000ADriver info: driver.version: ChromeDriver\000Aremote stacktrace: Backtrace:\000A\0009Ordinal0 [0x005AC013+3194899]\000A\0009Ordinal0 [0x00496021+2056225]\000A\0009Ordinal0 [0x0032F4B0+586928]\000A\0009Ordinal0 [0x00325894+546964]\000A\0009Ordinal0 [0x00325F2C+548652]\000A\0009Ordinal0 [0x00327175+553333]\000A\0009Ordinal0 [0x0032241E+533534]\000A\0009Ordinal0 [0x00330620+591392]\000A\0009Ordinal0 [0x002D2A0C+207372]\000A\0009Ordinal0 [0x002D1D0D+204045]\000A\0009Ordinal0 [0x002CFC1B+195611]\000A\0009Ordinal0 [0x002B3B7F+80767]\000A\0009Ordinal0 [0x002B4B4E+84814]\000A\0009Ordinal0 [0x002B4AD9+84697]\000A\0009Ordinal0 [0x004ACE64+2149988]\000A\0009GetHandleVerifier [0x0071BE95+1400773]\000A\0009GetHandleVerifier [0x0071BB61+1399953]\000A\0009GetHandleVerifier [0x007231FA+1430314]\000A\0009GetHandleVerifier [0x0071C69F+1402831]\000A\0009Ordinal0 [0x004A3D61+2112865]\000A\0009Ordinal0 [0x004AE5CB+2155979]\000A\0009Ordinal0 [0x004AE6F5+2156277]\000A\0009Ordinal0 [0x004BF26E+2224750]\000A\0009BaseThreadInitThunk [0x761A6359+25]\000A\0009RtlGetAppContainerNamedObjectPath [0x77BA8944+228]\000A\0009RtlGetAppContainerNamedObjectPath [0x77BA8914+180]\000A,FindAGiftValidations>TestBase.setupDriver:64->TestBase.getLocalDriver:81 \00BB SessionNotCreated,org.openqa.selenium.SessionNotCreatedException: \000Asession not created\000Afrom chrome not reachable\000A  (Session info: chrome=87.0.4280.66)\000ABuild info: version: '3.141.59'\002C revision: 'e82be7d358'\002C time: '2018-11-14T08:17:03'\000ASystem info: host: 'DESKTOP-DVMI27D'\002C ip: '192.168.64.1'\002C os.name: 'Windows 10'\002C os.arch: 'amd64'\002C os.version: '10.0'\002C java.version: '11.0.8'\000ADriver info: driver.version: ChromeDriver\000Aremote stacktrace: Backtrace:\000A\0009Ordinal0 [0x005AC013+3194899]\000A\0009Ordinal0 [0x00496021+2056225]\000A\0009Ordinal0 [0x0032F4B0+586928]\000A\0009Ordinal0 [0x00325894+546964]\000A\0009Ordinal0 [0x00325F2C+548652]\000A\0009Ordinal0 [0x00327175+553333]\000A\0009Ordinal0 [0x0032241E+533534]\000A\0009Ordinal0 [0x00330620+591392]\000A\0009Ordinal0 [0x002D2A0C+207372]\000A\0009Ordinal0 [0x002D1D0D+204045]\000A\0009Ordinal0 [0x002CFC1B+195611]\000A\0009Ordinal0 [0x002B3B7F+80767]\000A\0009Ordinal0 [0x002B4B4E+84814]\000A\0009Ordinal0 [0x002B4AD9+84697]\000A\0009Ordinal0 [0x004ACE64+2149988]\000A\0009GetHandleVerifier [0x0071BE95+1400773]\000A\0009GetHandleVerifier [0x0071BB61+1399953]\000A\0009GetHandleVerifier [0x007231FA+1430314]\000A\0009GetHandleVerifier [0x0071C69F+1402831]\000A\0009Ordinal0 [0x004A3D61+2112865]\000A\0009Ordinal0 [0x004AE5CB+2155979]\000A\0009Ordinal0 [0x004AE6F5+2156277]\000A\0009Ordinal0 [0x004BF26E+2224750]\000A\0009BaseThreadInitThunk [0x761A6359+25]\000A\0009RtlGetAppContainerNamedObjectPath [0x77BA8944+228]\000A\0009RtlGetAppContainerNamedObjectPath [0x77BA8914+180]\000A\000A
+
+
+# Created at 2020-12-03T16:03:56.049
+Unexpected IOException: 9,1,com.amazontest.FindAGiftValidations,startExtent(com.amazontest.FindAGiftValidations),null,null,null
+
+
+# Created at 2020-12-03T16:03:56.052
+Unexpected IOException: 5,1,com.amazontest.FindAGiftValidations,validateUserBeingAbleToClickOnElectronicGifts(com.amazontest.FindAGiftValidations),com.amazontest.FindAGiftValidations,null,null
+
+
+# Created at 2020-12-03T16:03:56.056
+Unexpected IOException: 9,1,com.amazontest.FindAGiftValidations,validateUserBeingAbleToClickOnElectronicGifts(com.amazontest.FindAGiftValidations),null,session not created\000Afrom chrome not reachable\000A  (Session info: chrome=87.0.4280.66)\000ABuild info: version: '3.141.59'\002C revision: 'e82be7d358'\002C time: '2018-11-14T08:17:03'\000ASystem info: host: 'DESKTOP-DVMI27D'\002C ip: '192.168.64.1'\002C os.name: 'Windows 10'\002C os.arch: 'amd64'\002C os.version: '10.0'\002C java.version: '11.0.8'\000ADriver info: driver.version: ChromeDriver\000Aremote stacktrace: Backtrace:\000A\0009Ordinal0 [0x005AC013+3194899]\000A\0009Ordinal0 [0x00496021+2056225]\000A\0009Ordinal0 [0x0032F4B0+586928]\000A\0009Ordinal0 [0x00325894+546964]\000A\0009Ordinal0 [0x00325F2C+548652]\000A\0009Ordinal0 [0x00327175+553333]\000A\0009Ordinal0 [0x0032241E+533534]\000A\0009Ordinal0 [0x00330620+591392]\000A\0009Ordinal0 [0x002D2A0C+207372]\000A\0009Ordinal0 [0x002D1D0D+204045]\000A\0009Ordinal0 [0x002CFC1B+195611]\000A\0009Ordinal0 [0x002B3B7F+80767]\000A\0009Ordinal0 [0x002B4B4E+84814]\000A\0009Ordinal0 [0x002B4AD9+84697]\000A\0009Ordinal0 [0x004ACE64+2149988]\000A\0009GetHandleVerifier [0x0071BE95+1400773]\000A\0009GetHandleVerifier [0x0071BB61+1399953]\000A\0009GetHandleVerifier [0x007231FA+1430314]\000A\0009GetHandleVerifier [0x0071C69F+1402831]\000A\0009Ordinal0 [0x004A3D61+2112865]\000A\0009Ordinal0 [0x004AE5CB+2155979]\000A\0009Ordinal0 [0x004AE6F5+2156277]\000A\0009Ordinal0 [0x004BF26E+2224750]\000A\0009BaseThreadInitThunk [0x761A6359+25]\000A\0009RtlGetAppContainerNamedObjectPath [0x77BA8944+228]\000A\0009RtlGetAppContainerNamedObjectPath [0x77BA8914+180]\000A,null
+
+
+# Created at 2020-12-03T16:03:56.058
+Unexpected IOException: 9,1,com.amazontest.FindAGiftValidations,afterEachTestMethod(com.amazontest.FindAGiftValidations),null,null,null
+
+
+# Created at 2020-12-03T16:03:56.060
+Unexpected IOException: 9,1,com.amazontest.FindAGiftValidations,cleanUp(com.amazontest.FindAGiftValidations),null,null,null
+
+
+# Created at 2020-12-03T16:03:56.064
+Unexpected IOException: 9,1,com.amazontest.FindAGiftValidations,setupDriver(com.amazontest.FindAGiftValidations),null,null,null
+
+
+# Created at 2020-12-03T16:03:56.066
+Unexpected IOException: 9,1,com.amazontest.FindAGiftValidations,startExtent(com.amazontest.FindAGiftValidations),null,null,null
+
+
+# Created at 2020-12-03T16:03:56.068
+Unexpected IOException: 5,1,com.amazontest.FindAGiftValidations,validateUserBeingAbleToClickOnShopAllHolidaysGifts(com.amazontest.FindAGiftValidations),com.amazontest.FindAGiftValidations,null,null
+
+
+# Created at 2020-12-03T16:03:56.069
+Unexpected IOException: 9,1,com.amazontest.FindAGiftValidations,validateUserBeingAbleToClickOnShopAllHolidaysGifts(com.amazontest.FindAGiftValidations),null,session not created\000Afrom chrome not reachable\000A  (Session info: chrome=87.0.4280.66)\000ABuild info: version: '3.141.59'\002C revision: 'e82be7d358'\002C time: '2018-11-14T08:17:03'\000ASystem info: host: 'DESKTOP-DVMI27D'\002C ip: '192.168.64.1'\002C os.name: 'Windows 10'\002C os.arch: 'amd64'\002C os.version: '10.0'\002C java.version: '11.0.8'\000ADriver info: driver.version: ChromeDriver\000Aremote stacktrace: Backtrace:\000A\0009Ordinal0 [0x005AC013+3194899]\000A\0009Ordinal0 [0x00496021+2056225]\000A\0009Ordinal0 [0x0032F4B0+586928]\000A\0009Ordinal0 [0x00325894+546964]\000A\0009Ordinal0 [0x00325F2C+548652]\000A\0009Ordinal0 [0x00327175+553333]\000A\0009Ordinal0 [0x0032241E+533534]\000A\0009Ordinal0 [0x00330620+591392]\000A\0009Ordinal0 [0x002D2A0C+207372]\000A\0009Ordinal0 [0x002D1D0D+204045]\000A\0009Ordinal0 [0x002CFC1B+195611]\000A\0009Ordinal0 [0x002B3B7F+80767]\000A\0009Ordinal0 [0x002B4B4E+84814]\000A\0009Ordinal0 [0x002B4AD9+84697]\000A\0009Ordinal0 [0x004ACE64+2149988]\000A\0009GetHandleVerifier [0x0071BE95+1400773]\000A\0009GetHandleVerifier [0x0071BB61+1399953]\000A\0009GetHandleVerifier [0x007231FA+1430314]\000A\0009GetHandleVerifier [0x0071C69F+1402831]\000A\0009Ordinal0 [0x004A3D61+2112865]\000A\0009Ordinal0 [0x004AE5CB+2155979]\000A\0009Ordinal0 [0x004AE6F5+2156277]\000A\0009Ordinal0 [0x004BF26E+2224750]\000A\0009BaseThreadInitThunk [0x761A6359+25]\000A\0009RtlGetAppContainerNamedObjectPath [0x77BA8944+228]\000A\0009RtlGetAppContainerNamedObjectPath [0x77BA8914+180]\000A,null
+
+
+# Created at 2020-12-03T16:03:56.070
+Unexpected IOException: 9,1,com.amazontest.FindAGiftValidations,afterEachTestMethod(com.amazontest.FindAGiftValidations),null,null,null
+
+
+# Created at 2020-12-03T16:03:56.071
+Unexpected IOException: 9,1,com.amazontest.FindAGiftValidations,cleanUp(com.amazontest.FindAGiftValidations),null,null,null
+
+
+# Created at 2020-12-03T16:03:56.532
+Unexpected IOException: 2,1,org.apache.maven.surefire.testng.TestNGXmlTestSuite,TestSuite,null,null,null
+
+
